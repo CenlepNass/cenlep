@@ -193,14 +193,28 @@ nav .menu__icon {
     
 }
 
+@media(max-width: 500px) {
+    .medium__container {
+        margin-top: 2rem;
+    }
+    .component__container {
+        max-height: 350px;
+        margin: 20% auto;
+    }
+
+    .background__box {
+        max-height: 330px;
+    }
+}
+
 .component__container {
     background-color: rgb(2, 155, 15);
     display: flex;
     padding: 2%;
     height: 500px;
     width: 80%;
-    min-width: 400px;
-    margin: 3% 5%;
+    min-width: 200px;
+    margin: 5% 5%;
     position: relative;
 }
 
