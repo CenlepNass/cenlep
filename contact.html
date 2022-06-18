@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact Cenlep</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/cenlep_logo.png" alt=""></a>
+            <div class="nav__links" id="navLinks">
+                <img class="icons" src="./images/exit.png" alt="" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="./activity.html">AWARD</a></li>
+                    <li><a href="./gallery.html">GALLERY</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="menu__icon" src="./images/menu_icon.png" alt="" onclick="showMenu()">
+        </nav>
+        <div class="text__box">
+            <h1>Contact Us</h1>
+            
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="inner__circle"></div>
+        <div class="inner__circle2"></div>
+        <div class="inner__circle3"></div>
+        <div class="inner__circle4"></div>
+        <div class="inner__circle5"></div>
+
+        <h2>Address</h2>
+        <p><strong>Obama Hotels & Investment Complex</strong> 
+            <em><br>Plot 238, Karu Hills, New Layout Extension <br>FCT - Abuja</em> 
+        </p>
+        <h2>Phone</h2>
+        <p>07031825300, 08025441644</p>
+
+        <h2>Email</h2>
+        <a href="mailto:cenlepnass@gmail.com"><p>Cenlepnass@gmail.com</p></a>
+        <a href="mailto:royalgatemagazine@gmail.com"><p>Royalgatemagazine@gmail.com</p></a>
+
+        <h2>Facebook</h2>
+        <a href="https://facebook.com/CenlepNass/"><p>Centre for Nigerian Leadership Perspective, Cenlep</p></a>
+
+    </section>
+<!-- ----------------------- EMAIL SECTION ----------------- -->
+    <section class="mail">
+        <div class="mail__container">
+            <form action="https://formsubmit.co/cenlepnass@gmail.com" method="POST" id="form__group">
+                <div class="form__group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+
+                <div class="form__group">
+                    <label for="lasName"> Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+
+                <div class="form__group">
+                    <label for="email"> Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="form__group">
+                    <label for="message"> Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <!-- <div id="status" class="error">Success</div> -->
+    </section>
+
+    <!-- ------------------------ MAP SECTION --------------------- -->
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d693.2332314756009!2d7.55715191099444!3d9.023419320889628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0ed2ac2cd435%3A0x8eae91a7629426a8!2sObama%20Hotels%20and%20Resort!5e0!3m2!1sen!2sng!4v1654764659964!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+   <!-- ---------------- FOOTER SECTION --------------- -->
+   <section>
+    <div class="footer">
+        <div class="contact__btn">
+            <a href="./contact.html"> 
+                Contact Us</a> 
+                <a href="./contact.html"> <img src="./images/arrow.png" alt="">
+            </a>
+        </div>
+            
+         </button> 
+        <div class="social__links">
+            <a href="https://facebook.com/CenlepNass/"><img src="./images/facebook.png" alt=""></a>
+            <a href="mailto:cenlepnass@gmail.com"><img src="./images/mail.png" alt=""></a>
+        </div>
+        &copy; 2022 Centre for Nigerian Leadership Perspective, Cenlep
+    </div>
+</section>
+
+
+<!-- ---------- JavaScript Toggle Menu --------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    <!-- <script src="./main.js"></script> -->
+
+</body>
+</html>
